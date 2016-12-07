@@ -59,7 +59,6 @@ def get_getty_relationship(ulan):
 
 # returns a best guess ulan based on artist's name (formatted: Lastname, Firstname) and some basic info
 def get_getty_ulan(artist):
-
 	# artists with apostrophies in their names need escaping
 	if(artist.find("'") != -1 ):
 		artist = artist.replace("'","\\\'")
