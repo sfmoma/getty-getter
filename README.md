@@ -1,5 +1,8 @@
 # getty_scraper
+
 A script developed by SFMOMA for associating artists with the Getty ULAN vocabulary and gathering additional metadata based on an artist's ULAN.
+
+The ULAN vocabulary is a wealth of information regarding people and organizations involved in art and culture.  More about ULAN can be found [here](http://www.getty.edu/research/tools/vocabularies/ulan/about.html).
 
 This script is a work in progress.  Right now there are three basic functions.
 
