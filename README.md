@@ -28,3 +28,7 @@ This script is a work in progress.  Right now there are three basic functions.
 `get_getty_artist_name` which consumes an ULAN and returns just the artist's name formatted `First Last`.
 `get_getty_artist_name("500024301")`
 ```Stieglitz, Alfred```
+
+### Installation
+
+Getty Scraper was built on Django 1.8 and Python 2.7.  Simply download this repo into its own app in your django project and import the methods into any view or app.
