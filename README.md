@@ -34,3 +34,19 @@ This script is a work in progress.  Right now there are three basic functions.
 `pip install getty-getter`
 
 Getty Scraper was built on Django 1.8 and Python 2.7.
+
+### Example View
+
+```
+from django.views.generic.base import View
+from django.http import HttpResponse
+from getty_getter import getty_getter as getty
+import json
+
+class GetUlanView(View):
+	def get(self, request):
+
+		artist_ulan = json.dumps(getty.get_getty_ulan(u"Stieglitz, Alfred"))
+
+		return HttpResponse(artist_ulan, content_type="application/json")
+```
