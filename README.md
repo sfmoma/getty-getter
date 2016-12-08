@@ -31,4 +31,6 @@ This script is a work in progress.  Right now there are three basic functions.
 
 ### Installation
 
-Getty Scraper was built on Django 1.8 and Python 2.7.  Simply download this repo into its own app in your django project and import the methods into any view or app.
+`pip install getty-getter`
+
+Getty Scraper was built on Django 1.8 and Python 2.7.
