@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Getty-Getter
+Version: 0.1
+Summary: Getty ULAN scraping utilities
+Home-page: https://github.com/jaymollica/getty_scraper
+Author: Jay Mollica
+Author-email: jmollica@sfmoma.org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Getty Art ULAN SFMOMA Artist Artwork
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 2.7

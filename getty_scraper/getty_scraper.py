@@ -1,8 +1,8 @@
 import requests
 import urllib
 import json
-import pycurl #for getty app
-from Levenshtein import distance #for getty app
+import pycurl
+from Levenshtein import distance
 from StringIO import StringIO
 
 # returns entire set of data from given ulan
