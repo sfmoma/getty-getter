@@ -1,7 +1,7 @@
 
 import setuptools
 
-VERSION = 0.0
+VERSION = "0.0a"
 
 setuptools.setup(name='getty-getter',
       version=VERSION,
