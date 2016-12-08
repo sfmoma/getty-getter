@@ -10,7 +10,7 @@ This script is a work in progress.  Right now there are three basic functions.
 
 
 #### 1. get_getty_ulan
-`get_getty_ulan` which consumes and artist's name (formatted 	`u'First, Last'`) and does a best guess match against similar names in the Getty ULAN vocabulary.  The returned data will include the name of the artist or organization, the ULAN, the "type" og thing returned (e.g. person, organization etc) and a scope note, which is a brief summary of the artist's career.
+`get_getty_ulan` which consumes and artist's name (formatted 	`u'Last, First'`) and does a best guess match against similar names in the Getty ULAN vocabulary.  The returned data will include the name of the artist or organization, the ULAN, the "type" og thing returned (e.g. person, organization etc) and a scope note, which is a brief summary of the artist's career.
 
 `get_getty_ulan(u"Stieglitz, Alfred")`
 ```
@@ -25,7 +25,7 @@ This script is a work in progress.  Right now there are three basic functions.
 ```
 
 #### 3. get_getty_artist_name
-`get_getty_artist_name` which consumes an ULAN and returns just the artist's name formatted `First Last`.
+`get_getty_artist_name` which consumes an ULAN and returns just the artist's name formatted `Last, First`.
 `get_getty_artist_name("500024301")`
 ```Stieglitz, Alfred```
 
