@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from django.views.generic.base import View
 from django.http import HttpResponse
-from getty import getty_getter
+from getty_getter import getty_getter
 import json
 
 # Create your views here.
