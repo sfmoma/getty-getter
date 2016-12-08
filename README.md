@@ -1,4 +1,4 @@
-# getty_scraper
+# Getty Getter
 
 A script developed by SFMOMA for associating artists with the Getty ULAN vocabulary and gathering additional metadata based on an artist's ULAN.
 
