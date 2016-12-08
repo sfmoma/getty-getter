@@ -1,16 +1,15 @@
 
 import setuptools
 
-VERSION = 0.1
+VERSION = 0.2
 
-setuptools.setup(name='Getty Getter',
+setuptools.setup(name='getty-getter',
       version=VERSION,
       description='Getty ULAN scraping utilities',
       author='Jay Mollica',
       author_email='jmollica@sfmoma.org',
       url='https://github.com/jaymollica/getty_scraper',
       packages=['getty_scraper'],
-      scripts=['getty_scraper.py'],
       keywords='Getty Art ULAN SFMOMA Artist Artwork',
       classifiers=[
         "Intended Audience :: Developers",

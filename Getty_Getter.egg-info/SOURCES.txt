@@ -5,5 +5,10 @@ Getty_Getter.egg-info/SOURCES.txt
 Getty_Getter.egg-info/dependency_links.txt
 Getty_Getter.egg-info/requires.txt
 Getty_Getter.egg-info/top_level.txt
+getty_getter.egg-info/PKG-INFO
+getty_getter.egg-info/SOURCES.txt
+getty_getter.egg-info/dependency_links.txt
+getty_getter.egg-info/requires.txt
+getty_getter.egg-info/top_level.txt
 getty_scraper/__init__.py
 getty_scraper/getty_scraper.py

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
-Name: Getty-Getter
-Version: 0.1
+Name: getty-getter
+Version: 0.2
 Summary: Getty ULAN scraping utilities
 Home-page: https://github.com/jaymollica/getty_scraper
 Author: Jay Mollica
