@@ -1,1 +1,1 @@
-getty_scraper
+getty_getter
