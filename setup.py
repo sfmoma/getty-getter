@@ -1,12 +1,12 @@
 
 import setuptools
 
-VERSION = "0.0a"
+VERSION = "0.2"
 
 setuptools.setup(name='getty-getter',
       version=VERSION,
       description='Getty ULAN scraping utilities',
-      author='Jay Mollica',
+      author='Jay Mollica, Fangyi Zhu',
       author_email='jmollica@sfmoma.org',
       url='https://github.com/sfmoma/getty-getter',
       packages=['getty_getter'],
@@ -17,7 +17,7 @@ setuptools.setup(name='getty-getter',
         "Intended Audience :: Education",
         "Intended Audience :: Other Audience",
         "License :: Free for non-commercial use",
-        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.12",
         ],
       install_requires=[
         'pycurl',
