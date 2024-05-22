@@ -33,7 +33,7 @@ This script is a work in progress.  Right now there are three basic functions.
 
 `pip install getty-getter`
 
-Getty Getter was built on Django 1.8 and Python 2.7.
+Getty Getter was built on Django 1.8 and Python 3.12.
 
 ### Example View
 
@@ -50,3 +50,8 @@ class GetUlanView(View):
 
 		return HttpResponse(artist_ulan, content_type="application/json")
 ```
+
+### Build
+For maintainers of this package only.
+`pip install --upgrade setuptools`
+`python -m build`
