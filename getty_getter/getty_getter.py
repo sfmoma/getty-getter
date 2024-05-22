@@ -8,24 +8,21 @@ from io import BytesIO
 
 # returns entire set of data from given ulan
 def get_getty_artist_data(ulan):
-    return
+    url = "http://vocab.getty.edu/ulan/%s.json" % ulan
+    result = requests.get(url)
+    data = json.loads(result.content)
+    return data
 
 
 # returns artist name from given ulan
 def get_getty_artist_name(ulan):
-    url = "http://vocab.getty.edu/ulan/%s.json" % ulan
-    result = requests.get(url)
-    data = json.loads(result.content)
-    return data['_label']
+    return get_getty_artist_data(ulan)['_label']
 
 
 # returns a list of ulans and their relationship to the provided ulan
 def get_getty_relationship(ulan):
-    url = "http://vocab.getty.edu/ulan/%s.json" % ulan
-    result = requests.get(url)
+    data = get_getty_artist_data(ulan)
     relationships = list()
-    data = json.loads(result.content)
-
     ulan_relationships = data['la:related_from_by']
 
     for relationship in ulan_relationships:

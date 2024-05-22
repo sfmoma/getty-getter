@@ -6,7 +6,7 @@ The ULAN vocabulary is a wealth of information regarding people and organization
 
 ### Usage
 
-This script is a work in progress.  Right now there are three basic functions.
+This script is a work in progress.  Right now there are four basic functions.
 
 
 #### 1. get_getty_ulan
@@ -29,6 +29,25 @@ This script is a work in progress.  Right now there are three basic functions.
 `get_getty_artist_name("500024301")`
 ```Stieglitz, Alfred```
 
+#### 4. get_getty_artist_data
+`get_getty_artist_data` which consumes an ULAN and returns entire set of data from given ulan as a dictionary.
+`get_getty_artist_data("500024301")`
+```yaml
+{'@context': 'https://linked.art/ns/v1/linked-art.json',
+ '_label': 'Stieglitz, Alfred',
+ 'born': {'id': 'http://vocab.getty.edu/ulan/activity/birth/4000062133',
+          'timespan': {'begin_of_the_begin': '1864-01-01T00:00:00',
+                       'end_of_the_end': '1864-12-31T23:59:59',
+                       'id': 'http://vocab.getty.edu/ulan/time/birth/4000062133',
+                       'type': 'TimeSpan'},
+          'took_place_at': [{'_label': 'Hoboken',
+                             'id': 'http://vocab.getty.edu/tgn/7013711-place',
+                             'type': 'Place'}],
+          'type': 'Birth'},
+...
+  ```
+The dictionary is parsed from [this json file on ULAN](http://vocab.getty.edu/ulan/500024301.json)
+
 ### Installation
 
 `pip install getty-getter`
@@ -37,7 +56,7 @@ Getty Getter was built on Django 1.8 and Python 3.12.
 
 ### Example View
 
-```
+```python
 from django.views.generic.base import View
 from django.http import HttpResponse
 from getty_getter import getty_getter as getty
@@ -53,5 +72,9 @@ class GetUlanView(View):
 
 ### Build
 For maintainers of this package only.
+
+Download setuptools:
 `pip install --upgrade setuptools`
+
+Run this command to build package:
 `python -m build`
