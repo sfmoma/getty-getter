@@ -5,7 +5,7 @@ Getty_Getter.egg-info/SOURCES.txt
 Getty_Getter.egg-info/dependency_links.txt
 Getty_Getter.egg-info/requires.txt
 Getty_Getter.egg-info/top_level.txt
-getty_getter/getty_getter.py
+getty_getter/__init__.py
 getty_getter.egg-info/PKG-INFO
 getty_getter.egg-info/SOURCES.txt
 getty_getter.egg-info/dependency_links.txt
