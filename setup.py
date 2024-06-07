@@ -3,14 +3,13 @@ import setuptools
 
 VERSION = "0.2"
 
-setuptools.setup(name='getty-getter',
+setuptools.setup(name='artist_getter',
       version=VERSION,
-      description='Getty ULAN scraping utilities',
+      description='Getty ULAN and WikiData scraping utilities for artists',
       author='Jay Mollica, Fangyi Zhu',
-      author_email='jmollica@sfmoma.org',
-      url='https://github.com/sfmoma/getty-getter',
-      packages=['getty_getter'],
-      keywords='SFMOMA Getty Art ULAN Artist Artwork Museums',
+      url='https://github.com/fangyizhu/artist-getter',
+      packages=['artist_getter'],
+      keywords='Getty Art ULAN WikiData Artist Artwork Museums',
       classifiers=[
         "Intended Audience :: Developers",
         "Intended Audience :: Information Technology",

@@ -1,4 +1,4 @@
-from getty_getter.__init__ import *
+from artist_getter import *
 
 assert '500024301' == get_getty_ulan("Stieglitz, Alfred")[0]['ulan']
 assert 'Stieglitz, Alfred' == get_getty_artist_name('500024301')

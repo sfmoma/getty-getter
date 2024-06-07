@@ -1,6 +1,6 @@
 from django.views.generic.base import View
 from django.http import HttpResponse
-from getty_getter import *
+from ..artist_getter import *
 import json
 
 class GetUlanView(View):
