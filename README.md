@@ -50,7 +50,7 @@ The dictionary is parsed from [this json file on ULAN](http://vocab.getty.edu/ul
 
 ### Installation
 
-`pip install getty-getter`
+`pip install artist-getter`
 
 Getty Getter was built on Django 1.8 and Python 3.12.
 
