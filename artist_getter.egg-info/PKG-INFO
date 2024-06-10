@@ -1,11 +1,10 @@
 Metadata-Version: 2.1
-Name: getty-getter
+Name: artist_getter
 Version: 0.2
-Summary: Getty ULAN scraping utilities
-Home-page: https://github.com/sfmoma/getty-getter
+Summary: Getty ULAN and WikiData scraping utilities for artists
+Home-page: https://github.com/fangyizhu/artist-getter
 Author: Jay Mollica, Fangyi Zhu
-Author-email: jmollica@sfmoma.org
-Keywords: SFMOMA Getty Art ULAN Artist Artwork Museums
+Keywords: Getty Art ULAN WikiData Artist Artwork Museums
 Classifier: Intended Audience :: Developers
 Classifier: Intended Audience :: Information Technology
 Classifier: Intended Audience :: Education

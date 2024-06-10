@@ -1,0 +1,8 @@
+README.md
+setup.py
+artist_getter/__init__.py
+artist_getter.egg-info/PKG-INFO
+artist_getter.egg-info/SOURCES.txt
+artist_getter.egg-info/dependency_links.txt
+artist_getter.egg-info/requires.txt
+artist_getter.egg-info/top_level.txt
